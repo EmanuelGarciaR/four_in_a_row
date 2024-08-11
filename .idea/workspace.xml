@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94be3e9b-cc2b-42ae-bae2-43aefbe72300" name="Changes" comment="Create put_token method">
+    <list default="true" id="94be3e9b-cc2b-42ae-bae2-43aefbe72300" name="Changes" comment="Refactoring put token method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,20 +42,33 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python tests.Python tests for test_model.test_check_draw.executor": "Run",
+    "Python tests.Python tests for test_model.test_check_draw_full_board_no_winner.executor": "Run",
+    "Python tests.Python tests for test_model.test_check_draw_no_draw.executor": "Run",
+    "Python tests.Python tests for test_model.test_check_draw_not_full.executor": "Run",
+    "Python tests.Python tests for test_model.test_check_winner_diagonal_ascending.executor": "Run",
+    "Python tests.Python tests for test_model.test_check_winner_diagonal_descending.executor": "Run",
+    "Python tests.Python tests for test_model.test_check_winner_diagonal_up.executor": "Run",
+    "Python tests.Python tests for test_model.test_check_winner_horizontal.executor": "Run",
+    "Python tests.Python tests for test_model.test_check_winner_no_win.executor": "Run",
+    "Python tests.Python tests for test_model.test_check_winner_no_winner.executor": "Run",
+    "Python tests.Python tests for test_model.test_check_winner_vertical.executor": "Run",
     "Python tests.Python tests for test_model.test_initial_board.executor": "Run",
+    "Python tests.Python tests for test_model.test_invalid_dimension.executor": "Run",
     "Python tests.Python tests for test_model.test_put_token_column_full.executor": "Run",
     "Python tests.Python tests for test_model.test_put_token_on_occupied.executor": "Run",
     "Python tests.Python tests for test_model.test_put_token_out_of_bounds.executor": "Run",
     "Python tests.Python tests for test_model.test_put_token_valid.executor": "Run",
     "Python tests.Python tests for test_model.test_show_board_output.executor": "Run",
+    "Python tests.Python tests for test_model.test_valid_dimension.executor": "Run",
     "Python tests.Python tests in test_model.py.executor": "Run",
     "Python.model.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Python tests for test_model.test_put_token_column_full" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_model.test_put_token_on_occupied">
+    <configuration name="Python tests for test_model.test_check_draw_full_board_no_winner" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="four_in_a_row" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -64,7 +79,52 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_model.test_put_token_column_full&quot;" />
+      <option name="_new_target" value="&quot;test_model.test_check_draw_full_board_no_winner&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_model.test_check_draw_not_full" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="four_in_a_row" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_model.test_check_draw_not_full&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_model.test_check_winner_diagonal_ascending" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="four_in_a_row" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_model.test_check_winner_diagonal_ascending&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_model.test_check_winner_diagonal_descending" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="four_in_a_row" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_model.test_check_winner_diagonal_descending&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -83,58 +143,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_model.test_put_token_out_of_bounds" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="four_in_a_row" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_model.test_put_token_out_of_bounds&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_model.test_put_token_valid" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="four_in_a_row" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_model.test_put_token_valid&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_model.test_show_board_output" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="four_in_a_row" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_model.test_show_board_output&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests for test_model.test_put_token_on_occupied" />
-        <item itemvalue="Python tests.Python tests for test_model.test_show_board_output" />
-        <item itemvalue="Python tests.Python tests for test_model.test_put_token_column_full" />
-        <item itemvalue="Python tests.Python tests for test_model.test_put_token_out_of_bounds" />
-        <item itemvalue="Python tests.Python tests for test_model.test_put_token_valid" />
+        <item itemvalue="Python tests.Python tests for test_model.test_check_draw_not_full" />
+        <item itemvalue="Python tests.Python tests for test_model.test_check_winner_diagonal_ascending" />
+        <item itemvalue="Python tests.Python tests for test_model.test_check_winner_diagonal_descending" />
+        <item itemvalue="Python tests.Python tests for test_model.test_check_draw_full_board_no_winner" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723400796654</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Refactoring put token method">
+      <option name="closed" value="true" />
+      <created>1723401366224</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1723401366224</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -248,17 +271,7 @@
     <MESSAGE value="Create put_token and some test" />
     <MESSAGE value="Create tests file" />
     <MESSAGE value="Create put_token method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create put_token method" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tests/test_model.py</url>
-          <line>39</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Refactoring put token method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring put token method" />
   </component>
 </project>
