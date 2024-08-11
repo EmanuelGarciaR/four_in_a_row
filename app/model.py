@@ -14,6 +14,9 @@ class Board:
         self.dimensions = dimensions.dimension
         self.matriz = np.full((self.dimensions, self.dimensions), '-')
 
+    def __str__(self):
+        return f"///BOARD///\n{self.matriz}\n(Dimension = {self.dimensions})"
+
 dimension = Dimension(4)
 board= Board(dimension)
-print(board.matriz)
+print(board)
