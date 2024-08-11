@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94be3e9b-cc2b-42ae-bae2-43aefbe72300" name="Changes" comment="Initial Commit (add .gitignore)">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="94be3e9b-cc2b-42ae-bae2-43aefbe72300" name="Changes" comment="Create SetUp">
+      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,12 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1723258034614</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create SetUp">
+      <option name="closed" value="true" />
+      <created>1723395469550</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723395469550</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Initial Commit (add .gitignore)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit (add .gitignore)" />
+    <MESSAGE value="Create SetUp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create SetUp" />
   </component>
 </project>
