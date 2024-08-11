@@ -17,6 +17,14 @@ class Board:
     def __str__(self):
         return f"///BOARD///\n{self.matriz}\n(Dimension = {self.dimensions})"
 
+    def show_board(self):
+        if self.matriz is None:
+            raise ValueError("El tablero está vacío.")
+        print("///BOARD///")
+        for fila in self.matriz:
+            print(' '.join(fila))
+
+
 dimension = Dimension(4)
-board= Board(dimension)
-print(board)
+board = Board(dimension)
+board.show_board()
