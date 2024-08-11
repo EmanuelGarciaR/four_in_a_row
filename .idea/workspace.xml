@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94be3e9b-cc2b-42ae-bae2-43aefbe72300" name="Changes" comment="Create put_token and some test">
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_model.py" afterDir="false" />
+    <list default="true" id="94be3e9b-cc2b-42ae-bae2-43aefbe72300" name="Changes" comment="Create put_token method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model.py" afterDir="false" />
     </list>
@@ -47,27 +45,14 @@
     "Python tests.Python tests for test_model.test_put_token_on_occupied.executor": "Run",
     "Python tests.Python tests for test_model.test_put_token_out_of_bounds.executor": "Run",
     "Python tests.Python tests for test_model.test_put_token_valid.executor": "Run",
+    "Python tests.Python tests for test_model.test_show_board_output.executor": "Run",
+    "Python tests.Python tests in test_model.py.executor": "Run",
     "Python.model.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_model.test_put_token_on_occupied">
-    <configuration name="Python tests for test_model.test_initial_board" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="four_in_a_row" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_model.test_initial_board&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="Python tests for test_model.test_put_token_column_full" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="four_in_a_row" />
       <option name="ENV_FILES" value="" />
@@ -128,13 +113,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_model.test_show_board_output" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="four_in_a_row" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_model.test_show_board_output&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests for test_model.test_put_token_on_occupied" />
+        <item itemvalue="Python tests.Python tests for test_model.test_show_board_output" />
         <item itemvalue="Python tests.Python tests for test_model.test_put_token_column_full" />
         <item itemvalue="Python tests.Python tests for test_model.test_put_token_out_of_bounds" />
         <item itemvalue="Python tests.Python tests for test_model.test_put_token_valid" />
-        <item itemvalue="Python tests.Python tests for test_model.test_initial_board" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +218,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723398750777</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Create tests file">
+      <option name="closed" value="true" />
+      <created>1723400772559</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723400772559</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Create put_token method">
+      <option name="closed" value="true" />
+      <created>1723400796654</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1723400796654</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -230,6 +246,19 @@
     <MESSAGE value="Create dunder method str" />
     <MESSAGE value="Create show_board method" />
     <MESSAGE value="Create put_token and some test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create put_token and some test" />
+    <MESSAGE value="Create tests file" />
+    <MESSAGE value="Create put_token method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create put_token method" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_model.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

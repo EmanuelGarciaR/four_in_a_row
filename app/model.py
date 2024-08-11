@@ -25,13 +25,21 @@ class Board:
             print(' '.join(fila))
 
     def put_token(self, player: str, column: int):
+        self._validate_column(column)
+        row = self._find_empty_row(column)
+        if row is not None:
+            self.matriz[row][column] = player
+        else:
+            raise ValueError("La columna está llena. No se puede colocar la ficha.")
+
+    def _validate_column(self, column: int):
+        """Valida si la columna está dentro de los límites del tablero."""
         if not (0 <= column < self.dimensions):
             raise ValueError("Posición fuera de los límites del tablero")
 
+    def _find_empty_row(self, column: int):
+        """Encuentra la primera fila vacía en la columna especificada."""
         for row in range(self.dimensions - 1, -1, -1):
-            if self.matriz[row][column] == '-':  # Encontrar la primera posición vacía
-                self.matriz[row][column] = player
-                return
-
-            # Si llegamos aquí, la columna está llena
-        raise ValueError("La columna está llena. No se puede colocar la ficha.")
+            if self.matriz[row][column] == '-':
+                return row
+        return None
