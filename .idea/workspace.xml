@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94be3e9b-cc2b-42ae-bae2-43aefbe72300" name="Changes" comment="Create dunder method str">
+    <list default="true" id="94be3e9b-cc2b-42ae-bae2-43aefbe72300" name="Changes" comment="Create show_board method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model.py" afterDir="false" />
     </list>
@@ -109,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723397323447</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Create show_board method">
+      <option name="closed" value="true" />
+      <created>1723397957279</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723397957279</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -119,6 +127,7 @@
     <MESSAGE value="Create class Dimension" />
     <MESSAGE value="Create class Board" />
     <MESSAGE value="Create dunder method str" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create dunder method str" />
+    <MESSAGE value="Create show_board method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create show_board method" />
   </component>
 </project>
