@@ -11,7 +11,7 @@ Este proyecto está desarrollado en Python y es una implementación simple para 
 ## Características
 
 - Juego para dos jugadores.
-- Rejilla de 7x6.
+- Rejilla de 4x4 o 6x6.
 - Detección automática de ganador.
 - Interfaz de texto sencilla y fácil de usar.
 
