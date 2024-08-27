@@ -204,9 +204,8 @@ class Game:
             print(f"\n🎉🎈 ¡Felicitaciones {winner.name}! 🎈🎉\n")
             print("🎈🎉🎈🎉🎈🎉🎈🎉🎈🎉🎈🎉")
             print("🎉🎈 ¡Gracias por jugar! 🎈🎉")
+        input("Presione Enter para terminar")
 
-
-if __name__ == "__main__":
-    juego = Game()
-    juego.setup()
-    juego.play_game()
+juego = Game()
+juego.setup()
+juego.play_game()
